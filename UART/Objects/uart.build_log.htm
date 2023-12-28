@@ -1,0 +1,292 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mohamed Ashraf, _, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+C:\Users\user\Desktop\STM32_keil\UART\uart.uvprojx
+Project File Date:  11/09/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling DMA_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\DMA_interface.h(87): warning:  #1-D: last line of file ends without a newline
+  #endif  /* DMA_INTERFACE_H */
+.\include\DMA_private.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif  /* DMA_PRIVATE_H */
+.\include\DMA_config.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif  /* DMA_CONFIG_H */
+src\DMA_program.c(151): warning:  #513-D: a value of type "void (*)(void)" cannot be assigned to an entity of type "volatile void (*)(void)"
+  	Callback[copy_u8ChannelID] = copy_ChannelCfgPtr->ptr_func;
+src\DMA_program.c(164): warning:  #513-D: a value of type "u32 *" cannot be assigned to an entity of type "u32"
+  	DMA->Channel[copy_u8ChannelID].CPAR  = copy_Pu32PeripheralAddress;
+src\DMA_program.c(167): warning:  #513-D: a value of type "u32 *" cannot be assigned to an entity of type "u32"
+  	DMA->Channel[copy_u8ChannelID].CMAR  = copy_Pu32MemoryAddress;
+src\DMA_program.c(176): warning:  #1-D: last line of file ends without a newline
+  }
+src\DMA_program.c: 9 warnings, 0 errors
+compiling SYSTICK_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\SYSTICK_interface.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SYSTICK_INTERFACE_H */
+.\include\SYSTICK_private.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SYSTICK_PRIVATE_H */
+.\include\SYSTICK_config.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SYSTICK_CONFIG_H */
+src\SYSTICK_program.c(109): warning:  #1-D: last line of file ends without a newline
+  }
+src\SYSTICK_program.c: 6 warnings, 0 errors
+compiling NVIC_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\NVIC_interface.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif /* NVIC_INTERFACE_H */
+src\NVIC_program.c(25): warning:  #191-D: type qualifier is meaningless on cast type
+  		NVIC_ISER0 = (1<< copy_u8IntNumber);
+src\NVIC_program.c(29): warning:  #191-D: type qualifier is meaningless on cast type
+  		NVIC_ISER1 = (1<< (copy_u8IntNumber-32));
+src\NVIC_program.c(43): warning:  #191-D: type qualifier is meaningless on cast type
+  		NVIC_ICER0 = (1<< copy_u8IntNumber);
+src\NVIC_program.c(47): warning:  #191-D: type qualifier is meaningless on cast type
+  		NVIC_ICER1 = (1<< (copy_u8IntNumber-32));
+src\NVIC_program.c(61): warning:  #191-D: type qualifier is meaningless on cast type
+  		NVIC_ISPR0 = (1<< copy_u8IntNumber);
+src\NVIC_program.c(65): warning:  #191-D: type qualifier is meaningless on cast type
+  		NVIC_ISPR1 = (1<< (copy_u8IntNumber-32));
+src\NVIC_program.c(79): warning:  #191-D: type qualifier is meaningless on cast type
+  		NVIC_ICPR0 = (1<< copy_u8IntNumber);
+src\NVIC_program.c(83): warning:  #191-D: type qualifier is meaningless on cast type
+  		NVIC_ICPR1 = (1<< (copy_u8IntNumber-32));
+src\NVIC_program.c(98): warning:  #191-D: type qualifier is meaningless on cast type
+  		active_flag = GET_BIT(NVIC_IABR0, copy_u8IntNumber);
+src\NVIC_program.c(102): warning:  #191-D: type qualifier is meaningless on cast type
+  		active_flag = GET_BIT(NVIC_IABR1, (copy_u8IntNumber-32));
+src\NVIC_program.c(118): warning:  #191-D: type qualifier is meaningless on cast type
+  SCB_AIRCR = 0x05FA0300;
+src\NVIC_program.c(145): warning:  #191-D: type qualifier is meaningless on cast type
+  NVIC_IPR[ copy_u8IntNumber ] = (priority << 4);
+src\NVIC_program.c: 15 warnings, 0 errors
+compiling AFIO_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\AFIO_interface.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif  /* AFIO_INTERFACE_H */
+.\include\AFIO_private.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* AFIO_PRIVATE_H */
+.\include\AFIO_config.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif  /* AFIO_CONFIG_H */
+src\AFIO_program.c: 5 warnings, 0 errors
+compiling SPI_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\SPI_interface.h(66): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SPI_INTERFACE_H */
+.\include\SPI_private.h(26): warning:  #144-D: a value of type "int" cannot be used to initialize an entity of type "volatile SPI_RegMap *"
+  volatile SPI_RegMap *SPI[] = { SPI_1_BASE_ADDRESS, SPI_2_BASE_ADDRESS};
+.\include\SPI_private.h(26): warning:  #152-D: conversion of nonzero integer to pointer
+  volatile SPI_RegMap *SPI[] = { SPI_1_BASE_ADDRESS, SPI_2_BASE_ADDRESS};
+.\include\SPI_private.h(26): warning:  #144-D: a value of type "int" cannot be used to initialize an entity of type "volatile SPI_RegMap *"
+  volatile SPI_RegMap *SPI[] = { SPI_1_BASE_ADDRESS, SPI_2_BASE_ADDRESS};
+.\include\SPI_private.h(26): warning:  #152-D: conversion of nonzero integer to pointer
+  volatile SPI_RegMap *SPI[] = { SPI_1_BASE_ADDRESS, SPI_2_BASE_ADDRESS};
+.\include\SPI_private.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SPI_PRIVATE_H */
+.\include\SPI_config.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SPI_CONFIG_H */
+src\SPI_program.c(71): warning:  #513-D: a value of type "void (*)(u16)" cannot be assigned to an entity of type "volatile void (*)(u16)"
+  	TX_CallBack[copy_u8InstanceID] = cfgPtr->TX_INT_FUNC;
+src\SPI_program.c(72): warning:  #513-D: a value of type "void (*)(void)" cannot be assigned to an entity of type "volatile void (*)(void)"
+  	RX_CallBack[copy_u8InstanceID] = cfgPtr->RX_INT_FUNC;
+src\SPI_program.c(94): warning:  #1-D: last line of file ends without a newline
+  }
+src\SPI_program.c: 12 warnings, 0 errors
+compiling main.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\RCC_interface.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* RCC_INTERFACE_H_ */
+.\include\GPIO_interface.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif /* GPIO_INTERFACE_H */
+.\include\AFIO_interface.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif  /* AFIO_INTERFACE_H */
+.\include\NVIC_interface.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif /* NVIC_INTERFACE_H */
+.\include\EXTI_interface.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* EXTI_INTERFACE_H */
+.\include\SYSTICK_interface.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SYSTICK_INTERFACE_H */
+.\include\OS_interface.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif  /* OS_INTERFACE_H */
+.\include\DMA_interface.h(87): warning:  #1-D: last line of file ends without a newline
+  #endif  /* DMA_INTERFACE_H */
+.\include\SPI_interface.h(66): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SPI_INTERFACE_H */
+.\include\UART_interface.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif  /* UART_INTERFACE_H */
+src\main.c: 11 warnings, 0 errors
+compiling OS_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\SYSTICK_interface.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SYSTICK_INTERFACE_H */
+.\include\OS_interface.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif  /* OS_INTERFACE_H */
+.\include\OS_private.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* OS_PRIVATE_H */
+.\include\OS_config.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif  /* OS_CONFIG_H */
+src\OS_program.c(71): warning:  #1-D: last line of file ends without a newline
+  }
+src\OS_program.c: 7 warnings, 0 errors
+compiling RCC_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\RCC_interface.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* RCC_INTERFACE_H_ */
+.\include\RCC_private.h(34): warning:  #1-D: last line of file ends without a newline
+  #endif /* RCC_PRIVATE_H_ */
+.\include\RCC_config.h(48): warning:  #1-D: last line of file ends without a newline
+  #endif /* RCC_CONFIG_H_ */
+src\RCC_program.c(21): warning:  #191-D: type qualifier is meaningless on cast type
+  		RCC_CR = 0x00010000;	/* Enable HSE without Bypass */
+src\RCC_program.c(22): warning:  #191-D: type qualifier is meaningless on cast type
+  		RCC_CFGR = 0x00000001;	/* select HSE as a system clock */
+src\RCC_program.c(196): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_AHB  :	SET_BIT(RCC_AHBENR  ,Copy_u8PerId);		break;
+src\RCC_program.c(197): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB1 :	SET_BIT(RCC_APB1ENR ,Copy_u8PerId);		break;
+src\RCC_program.c(198): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB2 :	SET_BIT(RCC_APB2ENR ,Copy_u8PerId);		break;
+src\RCC_program.c(217): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_AHB  :	CLR_BIT(RCC_AHBENR  ,Copy_u8PerId);		break;
+src\RCC_program.c(218): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB1 :	CLR_BIT(RCC_APB1ENR ,Copy_u8PerId);		break;
+src\RCC_program.c(219): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB2 :	CLR_BIT(RCC_APB2ENR ,Copy_u8PerId);		break;
+src\RCC_program.c: 13 warnings, 0 errors
+compiling EXTI_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\EXTI_interface.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* EXTI_INTERFACE_H */
+.\include\EXTI_private.h(34): warning:  #1-D: last line of file ends without a newline
+  #endif  /* EXTI_PRIVATE_H */
+.\include\EXTI_config.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif  /* EXTI_CONFIG_H */
+src\EXTI_program.c(70): warning:  #1-D: last line of file ends without a newline
+  }
+src\EXTI_program.c: 6 warnings, 0 errors
+compiling GPIO_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\GPIO_interface.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif /* GPIO_INTERFACE_H */
+src\GPIO_program.c: 3 warnings, 0 errors
+compiling UART_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\UART_interface.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif  /* UART_INTERFACE_H */
+.\include\UART_private.h(28): warning:  #144-D: a value of type "int" cannot be used to initialize an entity of type "volatile UART_RegMap *"
+  volatile UART_RegMap *UART[] = { UART_1_BASE_ADDRESS, UART_2_BASE_ADDRESS, UART_3_BASE_ADDRESS};
+.\include\UART_private.h(28): warning:  #152-D: conversion of nonzero integer to pointer
+  volatile UART_RegMap *UART[] = { UART_1_BASE_ADDRESS, UART_2_BASE_ADDRESS, UART_3_BASE_ADDRESS};
+.\include\UART_private.h(28): warning:  #144-D: a value of type "int" cannot be used to initialize an entity of type "volatile UART_RegMap *"
+  volatile UART_RegMap *UART[] = { UART_1_BASE_ADDRESS, UART_2_BASE_ADDRESS, UART_3_BASE_ADDRESS};
+.\include\UART_private.h(28): warning:  #152-D: conversion of nonzero integer to pointer
+  volatile UART_RegMap *UART[] = { UART_1_BASE_ADDRESS, UART_2_BASE_ADDRESS, UART_3_BASE_ADDRESS};
+.\include\UART_private.h(28): warning:  #144-D: a value of type "int" cannot be used to initialize an entity of type "volatile UART_RegMap *"
+  volatile UART_RegMap *UART[] = { UART_1_BASE_ADDRESS, UART_2_BASE_ADDRESS, UART_3_BASE_ADDRESS};
+.\include\UART_private.h(28): warning:  #152-D: conversion of nonzero integer to pointer
+  volatile UART_RegMap *UART[] = { UART_1_BASE_ADDRESS, UART_2_BASE_ADDRESS, UART_3_BASE_ADDRESS};
+.\include\UART_private.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif  /* UART_PRIVATE_H */
+.\include\UART_config.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif  /* UART_CONFIG_H */
+src\UART_program.c(84): warning:  #513-D: a value of type "void (*)(void)" cannot be assigned to an entity of type "volatile void (*)(void)"
+  	TX_CallBack[copy_u8InstanceID] = cfgPtr->TX_func;
+src\UART_program.c(85): warning:  #513-D: a value of type "void (*)(u8)" cannot be assigned to an entity of type "volatile void (*)(u8)"
+  	RX_CallBack[copy_u8InstanceID] = cfgPtr->RX_func;
+src\UART_program.c(127): warning:  #1-D: last line of file ends without a newline
+  }
+src\UART_program.c: 14 warnings, 0 errors
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=2880 RO-data=284 RW-data=44 ZI-data=1684  
+".\Objects\uart.axf" - 0 Error(s), 101 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Target_1
+  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
