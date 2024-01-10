@@ -1,0 +1,93 @@
+Dependencies for Project 'warn', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\scr\dio.c)(0x65623B61)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\dio.o --omf_browse .\objects\dio.crf --depend .\objects\dio.d)
+I (.\includes\bit_math.h)(0x656303C2)
+I (.\includes\dio.h)(0x6562EA4E)
+I (.\includes\dio_cfg.h)(0x65623154)
+I (.\includes\std_types.h)(0x65618750)
+I (.\includes\dio_private.h)(0x65623B68)
+F (.\scr\main.c)(0x656B64E7)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\includes\port.h)(0x6562EA1A)
+I (.\includes\port_cfg.h)(0x6562EA28)
+I (.\includes\std_types.h)(0x65618750)
+I (.\includes\rcc.h)(0x6562EA10)
+I (.\includes\rcc_cfg.h)(0x6562E9F8)
+I (.\includes\nvic.h)(0x6562F4E2)
+I (.\includes\nvic_cfg.h)(0x6562EA6C)
+I (.\includes\systick.h)(0x65630085)
+I (.\includes\systick_cfg.h)(0x6562FB0A)
+I (.\includes\dio.h)(0x6562EA4E)
+I (.\includes\dio_cfg.h)(0x65623154)
+I (.\includes\spi.h)(0x656419FC)
+I (.\includes\spi_cfg.h)(0x656360C0)
+I (.\includes\uart.h)(0x65646129)
+I (.\includes\uart_cfg.h)(0x65645524)
+I (.\includes\lcd.h)(0x656B5C2F)
+I (.\includes\lcd_cfg.h)(0x656B5C32)
+F (.\scr\nvic.c)(0x6562FBDE)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
+I (.\includes\bit_math.h)(0x656303C2)
+I (.\includes\nvic.h)(0x6562F4E2)
+I (.\includes\nvic_cfg.h)(0x6562EA6C)
+I (.\includes\std_types.h)(0x65618750)
+I (.\includes\nvic_private.h)(0x6562F2B1)
+F (.\scr\port.c)(0x6562EA1E)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\includes\bit_math.h)(0x656303C2)
+I (.\includes\port.h)(0x6562EA1A)
+I (.\includes\port_cfg.h)(0x6562EA28)
+I (.\includes\std_types.h)(0x65618750)
+I (.\includes\port_private.h)(0x6562EA22)
+F (.\scr\port_PBcfg.c)(0x6562EA25)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\port_pbcfg.o --omf_browse .\objects\port_pbcfg.crf --depend .\objects\port_pbcfg.d)
+I (.\includes\port.h)(0x6562EA1A)
+I (.\includes\port_cfg.h)(0x6562EA28)
+I (.\includes\std_types.h)(0x65618750)
+F (.\scr\rcc.c)(0x6562E9FD)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\rcc.o --omf_browse .\objects\rcc.crf --depend .\objects\rcc.d)
+I (.\includes\bit_math.h)(0x656303C2)
+I (.\includes\rcc.h)(0x6562EA10)
+I (.\includes\rcc_cfg.h)(0x6562E9F8)
+I (.\includes\std_types.h)(0x65618750)
+I (.\includes\rcc_private.h)(0x6562E988)
+F (.\scr\systick.c)(0x65630443)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (.\includes\bit_math.h)(0x656303C2)
+I (.\includes\systick.h)(0x65630085)
+I (.\includes\systick_cfg.h)(0x6562FB0A)
+I (.\includes\std_types.h)(0x65618750)
+I (.\includes\systick_private.h)(0x6562FC31)
+F (.\scr\spi.c)(0x656419A0)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\includes\bit_math.h)(0x656303C2)
+I (.\includes\spi.h)(0x656419FC)
+I (.\includes\spi_cfg.h)(0x656360C0)
+I (.\includes\std_types.h)(0x65618750)
+I (.\includes\spi_private.h)(0x656360ED)
+F (.\scr\spi_PBcfg.c)(0x6564182C)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\spi_pbcfg.o --omf_browse .\objects\spi_pbcfg.crf --depend .\objects\spi_pbcfg.d)
+I (.\includes\spi.h)(0x656419FC)
+I (.\includes\spi_cfg.h)(0x656360C0)
+I (.\includes\std_types.h)(0x65618750)
+F (.\scr\uart.c)(0x65646128)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\includes\bit_math.h)(0x656303C2)
+I (.\includes\uart.h)(0x65646129)
+I (.\includes\uart_cfg.h)(0x65645524)
+I (.\includes\std_types.h)(0x65618750)
+I (.\includes\uart_private.h)(0x65646127)
+F (.\scr\uart_PBcfg.c)(0x65645B78)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\uart_pbcfg.o --omf_browse .\objects\uart_pbcfg.crf --depend .\objects\uart_pbcfg.d)
+I (.\includes\uart.h)(0x65646129)
+I (.\includes\uart_cfg.h)(0x65645524)
+I (.\includes\std_types.h)(0x65618750)
+F (.\scr\lcd.c)(0x656B5C2C)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (.\includes\bit_math.h)(0x656303C2)
+I (.\includes\lcd.h)(0x656B5C2F)
+I (.\includes\lcd_cfg.h)(0x656B5C32)
+I (.\includes\std_types.h)(0x65618750)
+I (.\includes\lcd_private.h)(0x656B5C30)
+I (.\includes\dio.h)(0x6562EA4E)
+I (.\includes\dio_cfg.h)(0x65623154)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5FC0963A)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x61ADBFAE)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x61ADBFAE)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\includes-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61ADBFAE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x65630267)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25C8F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B0A58)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25C8F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25C8F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25C8F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61ADBFAE)
