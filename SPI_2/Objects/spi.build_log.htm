@@ -27,98 +27,12 @@ Project File Date:  11/26/2023
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Rebuild target 'Target 1'
-compiling OS_program.c...
-.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
-  #endif /* STD_TYPES_H_ */
-.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
-  #endif /* BIT_MATH_H_ */
-.\include\SYSTICK_interface.h(31): warning:  #1-D: last line of file ends without a newline
-  #endif  /* SYSTICK_INTERFACE_H */
-.\include\OS_interface.h(25): warning:  #1-D: last line of file ends without a newline
-  #endif  /* OS_INTERFACE_H */
-.\include\OS_private.h(31): warning:  #1-D: last line of file ends without a newline
-  #endif  /* OS_PRIVATE_H */
-.\include\OS_config.h(19): warning:  #1-D: last line of file ends without a newline
-  #endif  /* OS_CONFIG_H */
-src\OS_program.c(71): warning:  #1-D: last line of file ends without a newline
-  }
-src\OS_program.c: 7 warnings, 0 errors
-compiling RCC_program.c...
-.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
-  #endif /* STD_TYPES_H_ */
-.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
-  #endif /* BIT_MATH_H_ */
-.\include\RCC_interface.h(29): warning:  #1-D: last line of file ends without a newline
-  #endif /* RCC_INTERFACE_H_ */
-.\include\RCC_private.h(34): warning:  #1-D: last line of file ends without a newline
-  #endif /* RCC_PRIVATE_H_ */
-.\include\RCC_config.h(48): warning:  #1-D: last line of file ends without a newline
-  #endif /* RCC_CONFIG_H_ */
-src\RCC_program.c(21): warning:  #191-D: type qualifier is meaningless on cast type
-  		RCC_CR = 0x00010000;	/* Enable HSE without Bypass */
-src\RCC_program.c(22): warning:  #191-D: type qualifier is meaningless on cast type
-  		RCC_CFGR = 0x00000001;	/* select HSE as a system clock */
-src\RCC_program.c(196): warning:  #191-D: type qualifier is meaningless on cast type
-  			case RCC_AHB  :	SET_BIT(RCC_AHBENR  ,Copy_u8PerId);		break;
-src\RCC_program.c(197): warning:  #191-D: type qualifier is meaningless on cast type
-  			case RCC_APB1 :	SET_BIT(RCC_APB1ENR ,Copy_u8PerId);		break;
-src\RCC_program.c(198): warning:  #191-D: type qualifier is meaningless on cast type
-  			case RCC_APB2 :	SET_BIT(RCC_APB2ENR ,Copy_u8PerId);		break;
-src\RCC_program.c(217): warning:  #191-D: type qualifier is meaningless on cast type
-  			case RCC_AHB  :	CLR_BIT(RCC_AHBENR  ,Copy_u8PerId);		break;
-src\RCC_program.c(218): warning:  #191-D: type qualifier is meaningless on cast type
-  			case RCC_APB1 :	CLR_BIT(RCC_APB1ENR ,Copy_u8PerId);		break;
-src\RCC_program.c(219): warning:  #191-D: type qualifier is meaningless on cast type
-  			case RCC_APB2 :	CLR_BIT(RCC_APB2ENR ,Copy_u8PerId);		break;
-src\RCC_program.c: 13 warnings, 0 errors
-compiling GPIO_program.c...
-.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
-  #endif /* STD_TYPES_H_ */
-.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
-  #endif /* BIT_MATH_H_ */
-.\include\GPIO_interface.h(76): warning:  #1-D: last line of file ends without a newline
-  #endif /* GPIO_INTERFACE_H */
-src\GPIO_program.c: 3 warnings, 0 errors
 compiling spi.c...
 .\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
   #endif /* BIT_MATH_H_ */
 .\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
   #endif /* STD_TYPES_H_ */
 src\spi.c: 2 warnings, 0 errors
-compiling main.c...
-.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
-  #endif /* STD_TYPES_H_ */
-.\include\RCC_interface.h(29): warning:  #1-D: last line of file ends without a newline
-  #endif /* RCC_INTERFACE_H_ */
-.\include\GPIO_interface.h(76): warning:  #1-D: last line of file ends without a newline
-  #endif /* GPIO_INTERFACE_H */
-.\include\AFIO_interface.h(22): warning:  #1-D: last line of file ends without a newline
-  #endif  /* AFIO_INTERFACE_H */
-.\include\NVIC_interface.h(24): warning:  #1-D: last line of file ends without a newline
-  #endif /* NVIC_INTERFACE_H */
-.\include\EXTI_interface.h(31): warning:  #1-D: last line of file ends without a newline
-  #endif  /* EXTI_INTERFACE_H */
-.\include\SYSTICK_interface.h(31): warning:  #1-D: last line of file ends without a newline
-  #endif  /* SYSTICK_INTERFACE_H */
-.\include\OS_interface.h(25): warning:  #1-D: last line of file ends without a newline
-  #endif  /* OS_INTERFACE_H */
-.\include\DMA_interface.h(87): warning:  #1-D: last line of file ends without a newline
-  #endif  /* DMA_INTERFACE_H */
-src\main.c: 9 warnings, 0 errors
-compiling SYSTICK_program.c...
-.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
-  #endif /* STD_TYPES_H_ */
-.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
-  #endif /* BIT_MATH_H_ */
-.\include\SYSTICK_interface.h(31): warning:  #1-D: last line of file ends without a newline
-  #endif  /* SYSTICK_INTERFACE_H */
-.\include\SYSTICK_private.h(31): warning:  #1-D: last line of file ends without a newline
-  #endif  /* SYSTICK_PRIVATE_H */
-.\include\SYSTICK_config.h(16): warning:  #1-D: last line of file ends without a newline
-  #endif  /* SYSTICK_CONFIG_H */
-src\SYSTICK_program.c(109): warning:  #1-D: last line of file ends without a newline
-  }
-src\SYSTICK_program.c: 6 warnings, 0 errors
 compiling NVIC_program.c...
 .\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
   #endif /* STD_TYPES_H_ */
@@ -151,10 +65,42 @@ src\NVIC_program.c(118): warning:  #191-D: type qualifier is meaningless on cast
 src\NVIC_program.c(145): warning:  #191-D: type qualifier is meaningless on cast type
   NVIC_IPR[ copy_u8IntNumber ] = (priority << 4);
 src\NVIC_program.c: 15 warnings, 0 errors
-compiling spi_PBcfg.c...
+compiling main.c...
 .\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
   #endif /* STD_TYPES_H_ */
-src\spi_PBcfg.c: 1 warning, 0 errors
+.\include\RCC_interface.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* RCC_INTERFACE_H_ */
+.\include\GPIO_interface.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif /* GPIO_INTERFACE_H */
+.\include\AFIO_interface.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif  /* AFIO_INTERFACE_H */
+.\include\NVIC_interface.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif /* NVIC_INTERFACE_H */
+.\include\EXTI_interface.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* EXTI_INTERFACE_H */
+.\include\SYSTICK_interface.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SYSTICK_INTERFACE_H */
+.\include\OS_interface.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif  /* OS_INTERFACE_H */
+.\include\DMA_interface.h(87): warning:  #1-D: last line of file ends without a newline
+  #endif  /* DMA_INTERFACE_H */
+src\main.c: 9 warnings, 0 errors
+compiling OS_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\SYSTICK_interface.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SYSTICK_INTERFACE_H */
+.\include\OS_interface.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif  /* OS_INTERFACE_H */
+.\include\OS_private.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* OS_PRIVATE_H */
+.\include\OS_config.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif  /* OS_CONFIG_H */
+src\OS_program.c(71): warning:  #1-D: last line of file ends without a newline
+  }
+src\OS_program.c: 7 warnings, 0 errors
 compiling AFIO_program.c...
 .\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
   #endif /* STD_TYPES_H_ */
@@ -167,20 +113,60 @@ compiling AFIO_program.c...
 .\include\AFIO_config.h(12): warning:  #1-D: last line of file ends without a newline
   #endif  /* AFIO_CONFIG_H */
 src\AFIO_program.c: 5 warnings, 0 errors
-compiling EXTI_program.c...
+compiling SYSTICK_program.c...
 .\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
   #endif /* STD_TYPES_H_ */
 .\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
   #endif /* BIT_MATH_H_ */
-.\include\EXTI_interface.h(31): warning:  #1-D: last line of file ends without a newline
-  #endif  /* EXTI_INTERFACE_H */
-.\include\EXTI_private.h(34): warning:  #1-D: last line of file ends without a newline
-  #endif  /* EXTI_PRIVATE_H */
-.\include\EXTI_config.h(20): warning:  #1-D: last line of file ends without a newline
-  #endif  /* EXTI_CONFIG_H */
-src\EXTI_program.c(70): warning:  #1-D: last line of file ends without a newline
+.\include\SYSTICK_interface.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SYSTICK_INTERFACE_H */
+.\include\SYSTICK_private.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SYSTICK_PRIVATE_H */
+.\include\SYSTICK_config.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif  /* SYSTICK_CONFIG_H */
+src\SYSTICK_program.c(109): warning:  #1-D: last line of file ends without a newline
   }
-src\EXTI_program.c: 6 warnings, 0 errors
+src\SYSTICK_program.c: 6 warnings, 0 errors
+compiling GPIO_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\GPIO_interface.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif /* GPIO_INTERFACE_H */
+src\GPIO_program.c: 3 warnings, 0 errors
+compiling RCC_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\RCC_interface.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* RCC_INTERFACE_H_ */
+.\include\RCC_private.h(34): warning:  #1-D: last line of file ends without a newline
+  #endif /* RCC_PRIVATE_H_ */
+.\include\RCC_config.h(48): warning:  #1-D: last line of file ends without a newline
+  #endif /* RCC_CONFIG_H_ */
+src\RCC_program.c(21): warning:  #191-D: type qualifier is meaningless on cast type
+  		RCC_CR = 0x00010000;	/* Enable HSE without Bypass */
+src\RCC_program.c(22): warning:  #191-D: type qualifier is meaningless on cast type
+  		RCC_CFGR = 0x00000001;	/* select HSE as a system clock */
+src\RCC_program.c(196): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_AHB  :	SET_BIT(RCC_AHBENR  ,Copy_u8PerId);		break;
+src\RCC_program.c(197): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB1 :	SET_BIT(RCC_APB1ENR ,Copy_u8PerId);		break;
+src\RCC_program.c(198): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB2 :	SET_BIT(RCC_APB2ENR ,Copy_u8PerId);		break;
+src\RCC_program.c(217): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_AHB  :	CLR_BIT(RCC_AHBENR  ,Copy_u8PerId);		break;
+src\RCC_program.c(218): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB1 :	CLR_BIT(RCC_APB1ENR ,Copy_u8PerId);		break;
+src\RCC_program.c(219): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB2 :	CLR_BIT(RCC_APB2ENR ,Copy_u8PerId);		break;
+src\RCC_program.c: 13 warnings, 0 errors
+compiling spi_PBcfg.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+src\spi_PBcfg.c: 1 warning, 0 errors
 compiling DMA_program.c...
 .\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
   #endif /* STD_TYPES_H_ */
@@ -201,6 +187,20 @@ src\DMA_program.c(167): warning:  #513-D: a value of type "u32 *" cannot be assi
 src\DMA_program.c(176): warning:  #1-D: last line of file ends without a newline
   }
 src\DMA_program.c: 9 warnings, 0 errors
+compiling EXTI_program.c...
+.\include\std_types.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\EXTI_interface.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif  /* EXTI_INTERFACE_H */
+.\include\EXTI_private.h(34): warning:  #1-D: last line of file ends without a newline
+  #endif  /* EXTI_PRIVATE_H */
+.\include\EXTI_config.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif  /* EXTI_CONFIG_H */
+src\EXTI_program.c(70): warning:  #1-D: last line of file ends without a newline
+  }
+src\EXTI_program.c: 6 warnings, 0 errors
 assembling startup_stm32f10x_md.s...
 compiling system_stm32f10x.c...
 linking...
@@ -234,8 +234,8 @@ Package Vendor: Keil
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\ARM\startup_stm32f10x_md.s
       Include file:  RTE_Driver\Config\RTE_Device.h
-      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
       Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

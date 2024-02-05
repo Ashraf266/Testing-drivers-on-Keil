@@ -1,0 +1,142 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mohamed Ashraf, _, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      UL2CM3.DLL V1.163.0.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+C:\Users\user\Desktop\New folder (2)\test.uvprojx
+Project File Date:  09/21/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+assembling startup_stm32f10x_md.s...
+compiling main.c...
+.\include\std_types.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+main.c: 2 warnings, 0 errors
+compiling RCC_program.c...
+.\include\std_types.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif /* STD_TYPES_H_ */
+.\include\bit_math.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif /* BIT_MATH_H_ */
+.\include\RCC_private.h(34): warning:  #1-D: last line of file ends without a newline
+  #endif /* RCC_PRIVATE_H_ */
+RCC_program.c(36): warning:  #191-D: type qualifier is meaningless on cast type
+  		RCC_CFGR = 0x00000003;	/* select PLL as a system clock */
+RCC_program.c(49): warning:  #191-D: type qualifier is meaningless on cast type
+  		SET_BIT(RCC_CFGR, 16);	/* select HSE as PLL input */
+RCC_program.c(58): warning:  #191-D: type qualifier is meaningless on cast type
+  		RCC_CFGR |= (RCC_PLL_MUL_VAL - 2) << 18;
+RCC_program.c(72): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b000 << 8);
+RCC_program.c(76): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b100 << 8);
+RCC_program.c(80): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b101 << 8);
+RCC_program.c(84): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b110 << 8);
+RCC_program.c(88): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b111 << 8);
+RCC_program.c(108): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b000 << 11);
+RCC_program.c(112): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b100 << 11);
+RCC_program.c(116): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b101 << 11);
+RCC_program.c(120): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b110 << 11);
+RCC_program.c(124): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b111 << 11);
+RCC_program.c(140): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b0000 << 4);
+RCC_program.c(144): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b1000 << 4);
+RCC_program.c(148): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b1001 << 4);
+RCC_program.c(152): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b1010 << 4);
+RCC_program.c(156): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b1011 << 4);
+RCC_program.c(160): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b1100 << 4);
+RCC_program.c(164): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b1101 << 4);
+RCC_program.c(168): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b1110 << 4);
+RCC_program.c(172): warning:  #191-D: type qualifier is meaningless on cast type
+  				RCC_CFGR |= (0b1111 << 4);
+RCC_program.c(180): warning:  #191-D: type qualifier is meaningless on cast type
+  		RCC_CR = 0x01000000;	/* Enable PLL */
+RCC_program.c(182): warning:  #191-D: type qualifier is meaningless on cast type
+  		while( GET_BIT(RCC_CR, 25) != 1 ); /* wait until the PLL is Locked & ready */
+RCC_program.c(196): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_AHB  :	SET_BIT(RCC_AHBENR  ,Copy_u8PerId);		break;
+RCC_program.c(197): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB1 :	SET_BIT(RCC_APB1ENR ,Copy_u8PerId);		break;
+RCC_program.c(198): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB2 :	SET_BIT(RCC_APB2ENR ,Copy_u8PerId);		break;
+RCC_program.c(217): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_AHB  :	CLR_BIT(RCC_AHBENR  ,Copy_u8PerId);		break;
+RCC_program.c(218): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB1 :	CLR_BIT(RCC_APB1ENR ,Copy_u8PerId);		break;
+RCC_program.c(219): warning:  #191-D: type qualifier is meaningless on cast type
+  			case RCC_APB2 :	CLR_BIT(RCC_APB2ENR ,Copy_u8PerId);		break;
+RCC_program.c: 33 warnings, 0 errors
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=1212 RO-data=252 RW-data=0 ZI-data=1632  
+".\Objects\test.axf" - 0 Error(s), 35 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Target_1
+  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

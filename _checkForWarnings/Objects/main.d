@@ -16,3 +16,5 @@
 .\objects\main.o: .\includes\uart_cfg.h
 .\objects\main.o: .\includes\lcd.h
 .\objects\main.o: .\includes\lcd_cfg.h
+.\objects\main.o: .\includes\pwm.h
+.\objects\main.o: .\includes\pwm_cfg.h
