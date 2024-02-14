@@ -1,5 +1,2 @@
-.\objects\pwm.o: src\pwm.c
-.\objects\pwm.o: .\includes\pwm.h
-.\objects\pwm.o: .\includes\pwm_cfg.h
-.\objects\pwm.o: .\includes\std_types.h
-.\objects\pwm.o: .\includes\pwm_private.h
+./objects/pwm.o: src\pwm.c includes\pwm.h includes\pwm_cfg.h \
+  includes\std_types.h includes\pwm_private.h

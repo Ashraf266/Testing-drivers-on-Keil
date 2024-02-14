@@ -1,11 +1,4 @@
-.\objects\main.o: src\main.c
-.\objects\main.o: .\includes\std_types.h
-.\objects\main.o: .\includes\rcc.h
-.\objects\main.o: .\includes\rcc_cfg.h
-.\objects\main.o: .\includes\port.h
-.\objects\main.o: .\includes\port_cfg.h
-.\objects\main.o: .\includes\port_PBcfg.h
-.\objects\main.o: .\includes\systick.h
-.\objects\main.o: .\includes\systick_cfg.h
-.\objects\main.o: .\includes\pwm.h
-.\objects\main.o: .\includes\pwm_cfg.h
+./objects/main.o: src\main.c includes\std_types.h includes\rcc.h \
+  includes\rcc_cfg.h includes\port.h includes\port_cfg.h \
+  includes\port_PBcfg.h includes\systick.h includes\systick_cfg.h \
+  includes\pwm.h includes\pwm_cfg.h

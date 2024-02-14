@@ -9,7 +9,7 @@
 
 PWM_ConfigType PWM_TIM1_Cfg = {
                             71,
-                            5000,
+                            2000,
                             PWM_CHANNEL_ENABLE,
                             PWM_CHANNEL_DISABLE,
                             PWM_CHANNEL_DISABLE,

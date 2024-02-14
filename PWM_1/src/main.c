@@ -15,7 +15,7 @@ extern PWM_ConfigType PWM_TIM1_Cfg;
 int main(void)
 {
 
-	u16 i;
+	//u16 i;
 		RCC_init();
 	RCC_EnableClock(RCC_APB2, 2);
 	RCC_EnableClock(RCC_APB2, 3);
@@ -35,19 +35,18 @@ int main(void)
 
 		/* LED */
 		SYSTICK_setBusyWait(15000000);
-		PWM_setSignalByValue(0,0,0);
+		PWM_setSignalByValue(0,0,722);//0.722ms
 		SYSTICK_setBusyWait(15000000);
-		PWM_setSignalByValue(0,0,1000);
+		PWM_setSignalByValue(0,0,1250);
 		SYSTICK_setBusyWait(15000000);
-		PWM_setSignalByValue(0,0,2000);
+		PWM_setSignalByValue(0,0,1500);
 		SYSTICK_setBusyWait(15000000);
-		PWM_setSignalByValue(0,0,3000);
+		PWM_setSignalByValue(0,0,1750);
 		SYSTICK_setBusyWait(15000000);
-		PWM_setSignalByValue(0,0,4000);
-		SYSTICK_setBusyWait(15000000);
-		PWM_setSignalByValue(0,0,5000);
+		PWM_setSignalByValue(0,0,2500);//2.5ms
+		//SYSTICK_setBusyWait(15000000);
+		//PWM_setSignalByValue(0,0,5000);
 
-		
 
 	}
 

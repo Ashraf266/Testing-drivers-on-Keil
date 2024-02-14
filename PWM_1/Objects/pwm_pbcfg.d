@@ -1,4 +1,2 @@
-.\objects\pwm_pbcfg.o: src\pwm_PBcfg.c
-.\objects\pwm_pbcfg.o: .\includes\pwm.h
-.\objects\pwm_pbcfg.o: .\includes\pwm_cfg.h
-.\objects\pwm_pbcfg.o: .\includes\std_types.h
+./objects/pwm_pbcfg.o: src\pwm_PBcfg.c includes\pwm.h includes\pwm_cfg.h \
+  includes\std_types.h

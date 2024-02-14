@@ -1,0 +1,712 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mohamed Ashraf, _, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DARMSTM.DLL V1.69.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TARMSTM.DLL V1.67.1.0
+ 
+<h2>Project:</h2>
+C:\Users\user\Desktop\STM32_keil\I2C_2\i2c.uvprojx
+Project File Date:  02/13/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+scr/port_PBcfg.c(8): warning: In file included from...
+./includes\port.h(12): warning: In file included from...
+./includes/std_types.h(36): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long       u64;
+                 ^
+./includes/std_types.h(37): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long         s64;
+               ^
+scr/port_PBcfg.c(13): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   {{(u8)0 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(13): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   {{(u8)0 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(14): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)1 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(14): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)1 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(15): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)2 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(15): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)2 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(16): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)3 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(16): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)3 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(17): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)4 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(17): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)4 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(18): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)5 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(18): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)5 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(19): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)6 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(19): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)6 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(20): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)7 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(20): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)7 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(21): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)8 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(21): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)8 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(22): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)9 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(22): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)9 , PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(23): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)10, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(23): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)10, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(24): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)11, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(24): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)11, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(25): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)12, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(25): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)12, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(26): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)13, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(26): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)13, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(27): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)14, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(27): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)14, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(28): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)15, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(28): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)15, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(29): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)16, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(29): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)16, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(30): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)17, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(30): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)17, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(31): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)18, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(31): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)18, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(32): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)19, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(32): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)19, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(33): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)20, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(33): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)20, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(34): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)21, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(34): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)21, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(35): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)22, PORT_PIN_OUTPUT, PORT_PIN_FLOATING, PORT_OUTPUT_SPEED_50_MHZ_MODE, PORT_AF_OPEN_DRAIN_CFG, PORT_PIN_LOW}
+                                                 ^
+./includes\port.h(39): note: expanded from macro 'PORT_OUTPUT_SPEED_50_MHZ_MODE'
+#define PORT_OUTPUT_SPEED_50_MHZ_MODE              (0b11)
+                                                    ^
+scr/port_PBcfg.c(35): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)22, PORT_PIN_OUTPUT, PORT_PIN_FLOATING, PORT_OUTPUT_SPEED_50_MHZ_MODE, PORT_AF_OPEN_DRAIN_CFG, PORT_PIN_LOW}
+                                                                                ^
+./includes\port.h(26): note: expanded from macro 'PORT_AF_OPEN_DRAIN_CFG'
+#define PORT_AF_OPEN_DRAIN_CFG                     (0b11)
+                                                    ^
+scr/port_PBcfg.c(36): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)23, PORT_PIN_OUTPUT, PORT_PIN_FLOATING, PORT_OUTPUT_SPEED_50_MHZ_MODE, PORT_AF_OPEN_DRAIN_CFG, PORT_PIN_LOW}
+                                                 ^
+./includes\port.h(39): note: expanded from macro 'PORT_OUTPUT_SPEED_50_MHZ_MODE'
+#define PORT_OUTPUT_SPEED_50_MHZ_MODE              (0b11)
+                                                    ^
+scr/port_PBcfg.c(36): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)23, PORT_PIN_OUTPUT, PORT_PIN_FLOATING, PORT_OUTPUT_SPEED_50_MHZ_MODE, PORT_AF_OPEN_DRAIN_CFG, PORT_PIN_LOW}
+                                                                                ^
+./includes\port.h(26): note: expanded from macro 'PORT_AF_OPEN_DRAIN_CFG'
+#define PORT_AF_OPEN_DRAIN_CFG                     (0b11)
+                                                    ^
+scr/port_PBcfg.c(37): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)24, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(37): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)24, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(38): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)25, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(38): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)25, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(39): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)26, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(39): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)26, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(40): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)27, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(40): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)27, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(41): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)28, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(41): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)28, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(42): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)29, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(42): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)29, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(43): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)30, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(43): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)30, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(44): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)31, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(44): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)31, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(45): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)32, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(45): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)32, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(46): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)33, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(46): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)33, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+scr/port_PBcfg.c(47): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)34, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}}
+                                                ^
+./includes\port.h(36): note: expanded from macro 'PORT_INPUT_MODE'
+#define PORT_INPUT_MODE                            (0b00)
+                                                    ^
+scr/port_PBcfg.c(47): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+   ,{(u8)34, PORT_PIN_INPUT, PORT_PIN_FLOATING, PORT_INPUT_MODE, PORT_INPUT_FLOATING_CFG, PORT_PIN_LOW}}
+                                                                 ^
+./includes\port.h(30): note: expanded from macro 'PORT_INPUT_FLOATING_CFG'
+#define PORT_INPUT_FLOATING_CFG                    (0b01)
+                                                    ^
+72 warnings generated.
+compiling port_PBcfg.c...
+scr/main.c(1): warning: In file included from...
+./includes\port.h(12): warning: In file included from...
+./includes/std_types.h(36): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long       u64;
+                 ^
+./includes/std_types.h(37): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long         s64;
+               ^
+scr/main.c(2): warning: In file included from...
+./includes\rcc.h(11): warning: In file included from...
+./includes/rcc_cfg.h(23): warning: 'RCC_PLL' is not defined, evaluates to 0 [-Wundef]
+#if RCC_CLOCK_TYPE == RCC_PLL
+    ^
+./includes/rcc_cfg.h(18): note: expanded from macro 'RCC_CLOCK_TYPE'
+#define RCC_CLOCK_TYPE          RCC_PLL
+                                ^
+./includes/rcc_cfg.h(23): warning: 'RCC_PLL' is not defined, evaluates to 0 [-Wundef]
+#if RCC_CLOCK_TYPE == RCC_PLL
+                      ^
+scr/main.c(27): warning: use of GNU empty initializer extension [-Wgnu-empty-initializer]
+        u8 arr[6] = {};
+                    ^
+scr/main.c(52): warning: // comments are not allowed in this language [-Wcomment]
+                //I2C_stop(0);
+                ^
+scr/main.c(26): warning: mixing declarations and code is a C99 extension [-Wdeclaration-after-statement]
+        u8 data, test = 0;
+           ^
+7 warnings generated.
+compiling main.c...
+scr/i2c_PBcfg.c(8): warning: In file included from...
+./includes\i2c.h(12): warning: In file included from...
+./includes/std_types.h(36): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long       u64;
+                 ^
+./includes/std_types.h(37): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long         s64;
+               ^
+2 warnings generated.
+compiling i2c_PBcfg.c...
+scr/port.c(9): warning: In file included from...
+./includes\port.h(12): warning: In file included from...
+./includes/std_types.h(36): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long       u64;
+                 ^
+./includes/std_types.h(37): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long         s64;
+               ^
+scr/port.c(10): warning: In file included from...
+./includes\port_private.h(28): warning: no previous extern declaration for non-static variable 'PORT' [-Wmissing-variable-declarations]
+volatile PORT_RegMap *const PORT[] = {(PORT_RegMap *)PORT_PORT_A_BASE_ADDRESS, (PORT_RegMap *)PORT_PORT_B_BASE_ADDRESS, (PORT_RegMap *)PORT_PORT_C_BASE_ADDRESS};
+                            ^
+./includes\port_private.h(28): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile PORT_RegMap *const PORT[] = {(PORT_RegMap *)PORT_PORT_A_BASE_ADDRESS, (PORT_RegMap *)PORT_PORT_B_BASE_ADDRESS, (PORT_RegMap *)PORT_PORT_C_BASE_ADDRESS};
+         ^
+scr/port.c(69): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+            PORT[portNumber]->ODR |= (Config->pins[pinID].pinLevel << pinNumber);
+                                  ~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+scr/port.c(74): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+            PORT[portNumber]->ODR |= (Config->pins[pinID].pinInternalResistor << pinNumber);
+                                  ~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+5 warnings generated.
+compiling port.c...
+scr/rcc.c(9): warning: In file included from...
+./includes\rcc.h(11): warning: In file included from...
+./includes/rcc_cfg.h(23): warning: 'RCC_PLL' is not defined, evaluates to 0 [-Wundef]
+#if RCC_CLOCK_TYPE == RCC_PLL
+    ^
+./includes/rcc_cfg.h(18): note: expanded from macro 'RCC_CLOCK_TYPE'
+#define RCC_CLOCK_TYPE          RCC_PLL
+                                ^
+./includes/rcc_cfg.h(23): warning: 'RCC_PLL' is not defined, evaluates to 0 [-Wundef]
+#if RCC_CLOCK_TYPE == RCC_PLL
+                      ^
+scr/rcc.c(9): warning: In file included from...
+./includes\rcc.h(12): warning: In file included from...
+./includes/std_types.h(36): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long       u64;
+                 ^
+./includes/std_types.h(37): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long         s64;
+               ^
+scr/rcc.c(77): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b000 << 8);
+                                      ^
+scr/rcc.c(81): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b100 << 8);
+                                      ^
+scr/rcc.c(85): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b101 << 8);
+                                      ^
+scr/rcc.c(89): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b110 << 8);
+                                      ^
+scr/rcc.c(93): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b111 << 8);
+                                      ^
+scr/rcc.c(105): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b000 << 11);
+                                      ^
+scr/rcc.c(109): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b100 << 11);
+                                      ^
+scr/rcc.c(113): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b101 << 11);
+                                      ^
+scr/rcc.c(117): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b110 << 11);
+                                      ^
+scr/rcc.c(121): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b111 << 11);
+                                      ^
+scr/rcc.c(133): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b0000 << 4);
+                                      ^
+scr/rcc.c(137): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b1000 << 4);
+                                      ^
+scr/rcc.c(141): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b1001 << 4);
+                                      ^
+scr/rcc.c(145): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b1010 << 4);
+                                      ^
+scr/rcc.c(149): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b1011 << 4);
+                                      ^
+scr/rcc.c(153): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b1100 << 4);
+                                      ^
+scr/rcc.c(157): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b1101 << 4);
+                                      ^
+scr/rcc.c(161): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b1110 << 4);
+                                      ^
+scr/rcc.c(165): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+                        RCC->CFGR |= (0b1111 << 4);
+                                      ^
+23 warnings generated.
+compiling rcc.c...
+assembling startup_stm32f10x_md.s...
+scr/i2c.c(10): warning: In file included from...
+./includes\i2c.h(12): warning: In file included from...
+./includes/std_types.h(36): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long       u64;
+                 ^
+./includes/std_types.h(37): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long         s64;
+               ^
+scr/i2c.c(11): warning: In file included from...
+./includes\i2c_private.h(32): warning: no previous extern declaration for non-static variable 'I2C' [-Wmissing-variable-declarations]
+volatile I2C_RegMap *I2C[] = {(I2C_RegMap *)I2C_1_BASE_ADDRESS, (I2C_RegMap *)I2C_2_BASE_ADDRESS};
+                     ^
+./includes\i2c_private.h(32): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile I2C_RegMap *I2C[] = {(I2C_RegMap *)I2C_1_BASE_ADDRESS, (I2C_RegMap *)I2C_2_BASE_ADDRESS};
+         ^
+scr/i2c.c(35): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        CLR_BIT(I2C[instanceID]->CR1 ,15);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./includes\bit_math.h(12): note: expanded from macro 'CLR_BIT'
+#define CLR_BIT(REG,BIT)                (REG) &= ~(1<<(BIT))
+                                              ~~ ^~~~~~~~~~~
+scr/i2c.c(40): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        I2C[instanceID]->OAR1 |= (cfgPtr->address << 1);
+                              ~~  ~~~~~~~~~~~~~~~~^~~~
+scr/i2c.c(56): warning: 'break' will never be executed [-Wunreachable-code-break]
+                break;
+                ^~~~~
+scr/i2c.c(81): warning: implicit conversion changes signedness: 'int' to 'u32' (aka 'unsigned long') [-Wsign-conversion]
+        I2C[instanceID]->DR = (address << 1) | op;
+                            ~ ~~~~~~~~~~~~~~~^~~~
+scr/i2c.c(83): warning: implicit conversion loses integer precision: 'volatile u32' (aka 'volatile unsigned long') to 'u16' (aka 'unsigned short') [-Wimplicit-int-conversion]
+        reg = I2C[instanceID]->SR1;
+            ~ ~~~~~~~~~~~~~~~~~^~~
+scr/i2c.c(85): warning: // comments are not allowed in this language [-Wcomment]
+        //while( !(GET_BIT( I2C[instanceID]->SR1 ,7)) );
+        ^
+scr/i2c.c(84): warning: implicit conversion loses integer precision: 'volatile u32' (aka 'volatile unsigned long') to 'u16' (aka 'unsigned short') [-Wimplicit-int-conversion]
+        reg = I2C[instanceID]->SR2;
+            ~ ~~~~~~~~~~~~~~~~~^~~
+scr/i2c.c(80): warning: variable 'reg' set but not used [-Wunused-but-set-variable]
+        u16 reg = 0x00;
+            ^
+scr/i2c.c(99): warning: implicit conversion loses integer precision: 'volatile u32' (aka 'volatile unsigned long') to 'u8' (aka 'unsigned char') [-Wimplicit-int-conversion]
+        data = I2C[instanceID]->DR;
+             ~ ~~~~~~~~~~~~~~~~~^~
+scr/i2c.c(107): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        CLR_BIT(I2C[instanceID]->CR1, 10);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./includes\bit_math.h(12): note: expanded from macro 'CLR_BIT'
+#define CLR_BIT(REG,BIT)                (REG) &= ~(1<<(BIT))
+                                              ~~ ^~~~~~~~~~~
+scr/i2c.c(109): warning: implicit conversion loses integer precision: 'volatile u32' (aka 'volatile unsigned long') to 'u8' (aka 'unsigned char') [-Wimplicit-int-conversion]
+        data = I2C[instanceID]->DR;
+             ~ ~~~~~~~~~~~~~~~~~^~
+14 warnings generated.
+compiling i2c.c...
+RTE/Device/STM32F103C8/system_stm32f10x.c(64): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+RTE/Device/STM32F103C8/system_stm32f10x.c(166): warning: no previous extern declaration for non-static variable 'AHBPrescTable' [-Wmissing-variable-declarations]
+__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+            ^
+RTE/Device/STM32F103C8/system_stm32f10x.c(166): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+    ^
+4 warnings generated.
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=2460 RO-data=280 RW-data=224 ZI-data=1632  
+".\Objects\i2c.axf" - 0 Error(s), 127 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103C8
+  ./RTE/_Target_1
+  C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/system_stm32f10x.c
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
